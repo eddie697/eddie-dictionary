@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: gray
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.okay{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+}
+.okay{
+  width: 100%;
+  background: url(./Component/libery11.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: solid black;
+  background-size: cover;
+  cursor: pointer;
+}
+.okay h1{
+  background-color: black;
+  border-radius: 10px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.err{
+  background-color: black;
+  border-radius: 5px;
+  color: red;
+  margin-top: 30px;
 }
+form input{
+  width: 31rem;
+  padding: 20px;
+  border-radius: 20px; 
+  margin-top: 30px; 
+}
+form button{
+  padding: 20px;
+  border-radius: 8px;
+}
+.meaning{
+  color: black;
+  background-color: white;
+  width: 70%;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 30rem;
+  
+}
+/* .father{
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.worker{
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+.daughter{
+  background-color: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-top: 20px;
+}
+.son{
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 900px){
+  form button{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+  }  
+  form{
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  form input{
+    width: 100%;
   }
+  .okay{
+    padding: 20px;
+  }
+  
 }
